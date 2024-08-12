@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](http://127.0.0.1:5500/)
 
 ## Getting Started
 
@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Arístides José Molina Pérez**
+👤 **Elias111464**
 
 - GitHub: [@Elias111464](https://github.com/Elias111464)
 

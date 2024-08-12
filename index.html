@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Your Parley</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 id="title">Your Parley</h1> 
+   <p id="description">Soccer betting center</p>
+   <div class="container" />
+   <form id="survey-form" action="#" method="post">
+    <fieldset class="one">
+        <label id="name-label" for="name">Name<input required placeholder="name" type="text" id="name"></label>
+        <label id="email-label" for="email">Email<input placeholder="Email" type="email" id="email" required> </label>
+        <label id="Number" for="number">age<input placeholder max="100" min="18" type="number" id="number"></label>
+        <label for="dropdown">choose your team<select id="dropdown">
+            <option value="No selection">Select One</option>
+             <option value="Unemployed">VINOTINTO</option>
+              <option value="Working">REALMADRID</option>
+               <option value="Part time">FC BARCELONA</option>
+                <option value="Prefer not">LIVERPOOL</option>
+              <option value="Others">MILAN AC</option>
+             </select> </label>
+                 </fieldset>
+                  <fieldset>
+                    Have you already used our parley application before?
+          <label class="radio" for="yes"> <input id="yes" name="recommend" type="radio"   value="Yes" checked>  Yes </label>
+                   <label class="radio" for="maybe"> <input id="maybe" name="recommend" value="No" type="radio">  No</label>
+                   <label class="radio" for="not"><input id="not" name="recommend" type="radio" value="Not Sure">Not Sure</label>
+                      </fieldset>
+                      <fieldset>
+                        <label for="dropdown-two">Select your payment method</label>
+                        <select name="feature" id="dropdown-two" >
+                          <option value="Default">Select an Option</option>
+                           <option value="Binance">Binance</option>
+                            <option value="Mobile">Mobile payment</option>
+                             <option value="Bank">Bank transfer</option>
+                        </select>
+                        </label>
+                      </fieldset>
+                      <fieldset>
+                        What would you like us to improve on?(Check all that apply)
+                        <label class="check" for="Yes"><input  type="checkbox" id="Yes" name="Yes" value="yes">That we integrate other sports.</label>
+                          <label class="check"for="Yes"><input type="checkbox" id="Yes" name="Yes" value="yes">that we integrate other payment methods.</label>
+                            <label  class="check" for="Yes"><input  type="checkbox" name="Yes" value="yes" id="soocer">Lower our interest rate.</label>
+                              <label class="check" for="Yes"><input type="checkbox"  id="Yes" name="Yes" value="yes">Browse the matches through our web page.</label>
+                               <label class="check" for="I'm"><input type="checkbox"  id="I'm" name="I'm" value="yes">I'm not sure at this time.</label> 
+                      </fieldset>
+                      <fieldset>
+                        <label for="comments">If you could change something in your parley, what would it be?
+       </label>
+       <textarea id="comments" name="comments"></textarea>  
+    </fieldset>
+    <input type="submit"
+    id="submit"></input>
+   </form>
+</div>
+</body>
+</html>

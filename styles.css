@@ -15,8 +15,8 @@ body{
   
   .five {
     background-color: #0b0b35d8;
-    width: 55%;
-    margin: 20px auto 0 auto;
+    width: 60%;
+    margin: 0 auto 0 auto;
     padding: 2rem;
     border-radius: 10px;
   }
@@ -46,13 +46,17 @@ body{
   .container{
     padding:20px 14px 0 14px;
   }
-  
+  .one input{
+    display: block;
+    width: 103%;
+    padding: 0.4rem 0;
+    margin-bottom: 1.5rem;
+  }
   
     
   
-  .one input,select{
+  select{
       
-    /* border:2px solid red; */
     display: block;
     width: 100%;
     padding: 0.4rem 0;
@@ -63,9 +67,10 @@ body{
     display: block;
   }
   
-  #dropdown-two {
-    width: 100%;
+  #dropdown-two, #dropdown {
+    width: 104%;
     padding: 0.5rem;
+    
   }
   
   .check {
@@ -73,18 +78,19 @@ body{
     display: block;
   }
   
-  textarea {
+  textarea{
     width: 100%;
     display: block;
+    padding: 0.5rem;
   }
   
   #submit {
-    width: 94%;
-    display: block;
-    padding: 0.75rem;
-    margin: 0 auto;
+    width: 98%;
+    margin-left: 15px;
+    margin-right: 10px;
     background-color: #37af65;
     border: none;
     border-radius: 2px;
     color: white;
-  }
+    padding: 0.5rem;
+}
